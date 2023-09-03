@@ -5,7 +5,7 @@ import { useState } from 'react';
 function App() {
   const [redditVisible, setRedditVisible] = useState(false);
   const [jokeVisible, setJokeVisible] = useState(false);
-
+  console.log();
   return (
     <div>
       <div className="buttons">
